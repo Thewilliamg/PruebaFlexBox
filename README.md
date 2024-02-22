@@ -1,0 +1,1 @@
+![](https://github.com/Thewilliamg/PruebaFlexBox/blob/ejercicio_2/storage/img/2.png)
