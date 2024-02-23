@@ -3,3 +3,31 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.menu{
+    display: flex;
+    width: 300px;
+    height: auto;
+    justify-content: flex-start;
+    padding: 10px;
+    flex-direction: column;
+    row-gap: 5px; /*Espacio entre elementos*/
+}
+
+.lista{
+    display: flex;
+    width: 100%;
+    padding: 5px 15px;
+    height: 60px;
+    justify-content: space-between;
+    background-color: rgb(202, 199, 199);
+    align-items: center;
+}
+
+.enlace{
+    background-color: white;
+    padding: 3px 5px;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+}
