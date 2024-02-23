@@ -1,1 +1,1 @@
-![](https://github.com/Thewilliamg/PruebaFlexBox/blob/ejercicio_1/storage/img/1.png)
+![](https://github.com/Thewilliamg/practicaModeladoEnCaja/blob/ejercicio_1/storage/img/1.png)

@@ -3,3 +3,56 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
+
+.container{
+    display:flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+imagen-estilo {
+    width: 300px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border: 2px solid #333; /* Borde de 2px sólido de color gris oscuro (#333) */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 20px; /* Margen exterior de 20px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+.botones-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.boton-estilo {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    background-color: #555755; 
+    color: rgb(255, 255, 255); 
+    cursor: pointer; 
+    border-radius: 0px; 
+    margin-left: 10px; /* Agrega un margen entre los botones */
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around; /* Para distribuir los elementos de manera uniforme */
+    background-color: white; /* Color de fondo */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+.menu a{
+    color: gray; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    padding: 5px 10px; /* Espaciado interno del enlace */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.menu a:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados */
+}
