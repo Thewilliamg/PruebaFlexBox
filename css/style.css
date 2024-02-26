@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .container{
     display: flex;
     background-color: #93d9e9;
@@ -15,13 +16,14 @@
 
 .box{
     display: flex;
-    width: 260px;
+    width: 14%;
     height: 480px;
     min-height: 480px;
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
     justify-content: space-between;
+    box-sizing: content-box;
 }
 .header{
     display: flex;
