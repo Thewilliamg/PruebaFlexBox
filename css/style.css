@@ -22,7 +22,7 @@ header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2{
-    font-size: 15px;
+    font-size: 11px;
 }
 
 .bar-menu{
@@ -44,7 +44,7 @@ h2{
 .menu1 a{
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 12px;
     gap: 50px;
 }
 .menu2{
@@ -56,21 +56,21 @@ h2{
 .menu2 a{
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .container{
     display: flex;
     height: 80%;
     width: 100%;
-    width: auto;
+
 }
 
 .toolbar{
     display: flex;
     height:auto;
     width: 30%;
-    background-color: rgb(211, 208, 208);
+    background-color: rgb(233, 233, 233);
 }
 
 .blog{
@@ -83,39 +83,43 @@ h2{
     box-sizing: border-box;
     overflow-y: auto;
 }
-.b1{
+.b1,.b2{
     display: flex;
     align-items: start;
     flex-direction: column;
-    padding-top: 10px;
+    align-content: space-between;
+    padding-top: 5px;
     height: 50%;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     overflow-y: auto;
+    
 }
-.b1 h1{
+.b1 h1, .b2 h1{
     margin-bottom: 10px;
+    font-size: 16px;
 }
-.b1 img{
-    margin-top:10px;
-    margin-bottom: 10px;
+.b1 img,.b2 img{
+    margin-top:10px; 
+    margin-bottom: 10px; 
 }
-.b1 p{
-    margin-bottom: 10px;
+
+p{
+    font-size: 10px;
 }
-.b2{
+.parraph{
     display: flex;
-    align-items: start;
     flex-direction: column;
-    height: 50%;
-    padding-top: 10px;
-    border-bottom: 2px solid black;
-    justify-content: space-around;
-    overflow-y: auto;
+    /* font-size: 10px; */
+    margin-bottom: 10px;
 }
 
 footer{
     display: flex;
-    position: fixed;
+    height: 7%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     bottom: 0;
-    height: 5%;
+    background-color:rgb(211, 208, 208);
+    font-weight: bold;
 }
