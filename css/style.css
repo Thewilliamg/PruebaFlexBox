@@ -12,7 +12,7 @@
 
 header{
     background-color: salmon;
-    height: 12%;
+    height: 10%;
     width: 100%;
     color: white;
     display: flex;
@@ -44,7 +44,7 @@ h2{
 .menu1 a{
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     gap: 50px;
 }
 .menu2{
@@ -87,20 +87,35 @@ h2{
     display: flex;
     align-items: start;
     flex-direction: column;
+    padding-top: 10px;
     height: 50%;
     border-bottom: 2px solid black;
-    justify-content: space-around;
+    overflow-y: auto;
 }
-
+.b1 h1{
+    margin-bottom: 10px;
+}
+.b1 img{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.b1 p{
+    margin-bottom: 10px;
+}
 .b2{
     display: flex;
     align-items: start;
     flex-direction: column;
     height: 50%;
+    padding-top: 10px;
     border-bottom: 2px solid black;
     justify-content: space-around;
+    overflow-y: auto;
 }
 
 footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
     height: 5%;
 }
