@@ -1,0 +1,9 @@
+:root{
+    --menu-color: rgb(200,200,250);
+    --primario-color: rgb(63, 80, 80);
+    --segundo-color: rgb(190, 190, 190);
+    --tercer-color: rgb(30, 82, 109);
+    --cuarto-color: rgb(246, 246, 246);
+    --font-color:rgb(40, 40, 40);
+    --main-font: Roboto, "Ubuntu", Arial, sans-serif;
+}
